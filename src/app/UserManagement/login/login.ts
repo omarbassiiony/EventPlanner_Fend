@@ -48,7 +48,7 @@ export class Login {
           alert('Login successful!');
           
           // Navigate to sign-up page (change this to your desired route)
-          this.router.navigate(['/sign-up']);
+          this.router.navigate(['/home']);
         } else {
           alert('Login failed: ' + response.message);
         }
